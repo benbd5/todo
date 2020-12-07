@@ -1,0 +1,91 @@
+/* DOCUMENT INFORMATION
+    - Document: Liste de tâche
+    - Version : 1.0.0
+    - Author : Philippe
+*/
+
+
+/* COLORS
+    - defaut body text  #eee
+    - h1                #eee
+    - h2                #333333
+    - h3
+*/
+
+
+/* FONTS
+    - Default       Lato
+    - Subtitle
+
+*/
+
+
+
+/* CSS DIRECTORY
+    1. =GLOBAL
+    2. =HEADER
+    3. =PRODUITS
+
+*/
+
+
+
+/* GLOBAL
+========================================= */
+
+body {
+    /*
+    background: url(bg.jpg) no-repeat;
+       height: 100vh;
+    background-position: center;
+    background-size: cover;
+    */
+    background: linear-gradient(to right, #5433ff, #20bdff, #a5fecb);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    color: #333;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+
+
+
+.carte {
+    border: 1px solid #eee;
+    border-radius: 0.5rem !important;
+    padding: 1rem;
+    margin: 2rem 0;
+    background-color: #fff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+}
+
+.btn {
+    height: 52px;
+    line-height: 52px;
+    padding: 0 30px;
+    font-size: 12px;
+    background-color: #b3d538;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #90b30f;
+
+}
+
+.logo {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+
+}
+
+ion-icon {
+    color: #b3d538;
+    cursor: pointer;
+}
